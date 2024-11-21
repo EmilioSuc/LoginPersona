@@ -1,0 +1,27 @@
+﻿@model LoginPersona.Models.Persona
+
+<h2>Crear Persona</h2>
+
+<form method="post">
+
+    <div class="form-group" style="max-width: 400px;">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" name="Nombre" class="form-control" required />
+    </div>
+
+    <div class="form-group" style="max-width: 400px;">
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" class="form-control" required />
+    </div>
+
+    <div class="form-group" style="max-width: 400px;">
+        <label for="Edad">Edad</label>
+        <input type="number" id="Edad" name="Edad" class="form-control" required />
+    </div>
+
+    <div class="form-group" style="max-width: 400px;">
+        <label for="Correo">Correo</label>
+        <input type="email" id="Correo" name="Correo" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
